@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ULC XI-B</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="icon" href="/images/icon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-QFRFE5RXH4"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-QFRFE5RXH4");
+  </script>
+
+  <body>
+    <nav aria-label="Main Navigation">
+      <div class="nav-wrapper">
+        <!-- Logo Section -->
+        <a href="/index.html" class="logo-container" aria-label="Home">
+          <img
+            src="/images/hsc-26-logo.png"
+            alt="ULAB College Logo"
+            class="logo"
+          />
+          <div class="text-container">
+            <span class="main-text">ULAB College</span>
+            <span class="sub-text">XI-B</span>
+          </div>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-hidden="true"
+        />
+        <label
+          for="menu-toggle"
+          class="menu-button"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="hamburger"></span>
+        </label>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" role="menubar">
+          <li role="none"><a href="/index.html" role="menuitem">Home</a></li>
+          <li role="none">
+            <a href="/academic/academic.html" role="menuitem">Academic</a>
+          </li>
+          <li role="none">
+            <a href="/events/events.html" role="menuitem">Events</a>
+          </li>
+          <li role="none">
+            <a href="/introduction/introduction.html" role="menuitem"
+              >Introduction</a
+            >
+          </li>
+          <li role="none">
+            <a href="/notices/notices.html" role="menuitem">Notices</a>
+          </li>
+          <li role="none">
+            <a href="/files/files.html" role="menuitem">Files</a>
+          </li>
+        </ul>
+
+        <!-- Search Section -->
+        <div class="search-container">
+          <div class="search-wrapper">
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Search..."
+              aria-label="Search site content"
+              autocomplete="off"
+            />
+            <div
+              class="search-results"
+              id="searchResults"
+              role="listbox"
+              aria-label="Search results"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>
